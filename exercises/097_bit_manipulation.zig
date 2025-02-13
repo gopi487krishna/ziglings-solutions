@@ -78,9 +78,9 @@ pub fn main() !void {
     // Now we swap the values of the two variables by doing xor on them
     x ^= y;
     y ^= x;
+    x ^= y;
 
     // What must be written here?
-    ???;
 
     print("x = {d}; y = {d}\n", .{ x, y });
 }
